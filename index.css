@@ -1,0 +1,4 @@
+/* this is a css style, #map is the selector, # indicates selecting HTML tags using id, here we are refering to any HTML tag with an id='map' */
+#map {
+    height: 180px;
+}

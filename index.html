@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <script src="index.js">   </script> 
+    <link rel="stylesheet" href="index.css">
+    <title>
+        Interactive map
+    </title>
+    </head>
+<body>
+
+<label for="business_type">Choose a business type:</label>
+
+<select name="business_type" id="business_type">
+    <option value="coffee">coffee</option>
+    <option value="restaurant">restaurant</option>
+    <option value="hotel">hotel</option>
+    <option value="market">market</option>
+</select>
+<br>
+<br> 
+<label for="location">Location</label>
+<input type="text" id="location" name="location"><br><br>
+<br>
+<input onclick="getLocationOnMap()" type="submit" value="Submit">
+<br> 
+<br>
+<br>
+<div id="map">
+    map
+</div>
+</body>
+
+</html>

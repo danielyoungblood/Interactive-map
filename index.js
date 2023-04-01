@@ -1,0 +1,3 @@
+function getLocationOnMap() {
+  alert("here");
+}
